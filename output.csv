@@ -1,0 +1,127 @@
+nodes,goal,cost,actions,problem,search
+948,109,4.0,112,"PourProblem((1, 1, 1), 13)",astar_search
+1696,190,10.0,204,"GreenPourProblem((1, 1, 1), 13)",astar_search
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",astar_search
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",astar_search
+124,30,14.0,43,"PourProblem((0, 0), 8)",astar_search
+124,30,35.0,45,"GreenPourProblem((0, 0), 8)",astar_search
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",astar_search
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",astar_search
+0,1,0.0,0,"RouteProblem('A', 'A')",astar_search
+15,6,418.0,9,"RouteProblem('A', 'B')",astar_search
+34,15,910.0,23,"RouteProblem('N', 'L')",astar_search
+33,14,805.0,21,"RouteProblem('E', 'T')",astar_search
+20,9,445.0,13,"RouteProblem('O', 'M')",astar_search
+15,6,5.0,10,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",astar_search
+948,109,4.0,112,"PourProblem((1, 1, 1), 13)",uniform_cost_search
+1696,190,10.0,204,"GreenPourProblem((1, 1, 1), 13)",uniform_cost_search
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",uniform_cost_search
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",uniform_cost_search
+124,30,14.0,43,"PourProblem((0, 0), 8)",uniform_cost_search
+124,30,35.0,45,"GreenPourProblem((0, 0), 8)",uniform_cost_search
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",uniform_cost_search
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",uniform_cost_search
+0,1,0.0,0,"RouteProblem('A', 'A')",uniform_cost_search
+30,13,418.0,16,"RouteProblem('A', 'B')",uniform_cost_search
+42,19,910.0,27,"RouteProblem('N', 'L')",uniform_cost_search
+44,20,805.0,27,"RouteProblem('E', 'T')",uniform_cost_search
+30,12,445.0,16,"RouteProblem('O', 'M')",uniform_cost_search
+124,46,5.0,50,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",uniform_cost_search
+596,597,4.0,73,"PourProblem((1, 1, 1), 13)",breadth_first_search
+596,597,15.0,73,"GreenPourProblem((1, 1, 1), 13)",breadth_first_search
+2618,2619,9.0,302,"PourProblem((0, 0, 0), 21)",breadth_first_search
+2618,2619,32.0,302,"GreenPourProblem((0, 0, 0), 21)",breadth_first_search
+120,121,14.0,42,"PourProblem((0, 0), 8)",breadth_first_search
+120,121,36.0,42,"GreenPourProblem((0, 0), 8)",breadth_first_search
+2618,2619,9.0,302,"PourProblem((0, 0, 0), 21)",breadth_first_search
+2618,2619,32.0,302,"GreenPourProblem((0, 0, 0), 21)",breadth_first_search
+0,1,0.0,0,"RouteProblem('A', 'A')",breadth_first_search
+18,19,450.0,10,"RouteProblem('A', 'B')",breadth_first_search
+42,43,1085.0,27,"RouteProblem('N', 'L')",breadth_first_search
+36,37,837.0,22,"RouteProblem('E', 'T')",breadth_first_search
+30,31,445.0,16,"RouteProblem('O', 'M')",breadth_first_search
+81,82,5.0,35,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",breadth_first_search
+948,109,4.0,112,"PourProblem((1, 1, 1), 13)",breadth_first_bfs
+1062,124,15.0,127,"GreenPourProblem((1, 1, 1), 13)",breadth_first_bfs
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",breadth_first_bfs
+3757,420,24.0,428,"GreenPourProblem((0, 0, 0), 21)",breadth_first_bfs
+124,30,14.0,43,"PourProblem((0, 0), 8)",breadth_first_bfs
+124,30,36.0,43,"GreenPourProblem((0, 0), 8)",breadth_first_bfs
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",breadth_first_bfs
+3757,420,24.0,428,"GreenPourProblem((0, 0, 0), 21)",breadth_first_bfs
+0,1,0.0,0,"RouteProblem('A', 'A')",breadth_first_bfs
+28,12,450.0,14,"RouteProblem('A', 'B')",breadth_first_bfs
+55,24,910.0,32,"RouteProblem('N', 'L')",breadth_first_bfs
+51,22,837.0,28,"RouteProblem('E', 'T')",breadth_first_bfs
+40,16,445.0,20,"RouteProblem('O', 'M')",breadth_first_bfs
+124,46,5.0,50,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",breadth_first_bfs
+6133,6118,4.0,822,"PourProblem((1, 1, 1), 13)",iterative_deepening_search
+6133,6118,15.0,822,"GreenPourProblem((1, 1, 1), 13)",iterative_deepening_search
+288706,288675,9.0,36962,"PourProblem((0, 0, 0), 21)",iterative_deepening_search
+288706,288675,62.0,36962,"GreenPourProblem((0, 0, 0), 21)",iterative_deepening_search
+3840,3824,14.0,949,"PourProblem((0, 0), 8)",iterative_deepening_search
+3840,3824,36.0,949,"GreenPourProblem((0, 0), 8)",iterative_deepening_search
+288706,288675,9.0,36962,"PourProblem((0, 0, 0), 21)",iterative_deepening_search
+288706,288675,62.0,36962,"GreenPourProblem((0, 0, 0), 21)",iterative_deepening_search
+0,1,0.0,0,"RouteProblem('A', 'A')",iterative_deepening_search
+27,25,450.0,13,"RouteProblem('A', 'B')",iterative_deepening_search
+167,173,910.0,82,"RouteProblem('N', 'L')",iterative_deepening_search
+117,120,837.0,56,"RouteProblem('E', 'T')",iterative_deepening_search
+108,109,572.0,44,"RouteProblem('O', 'M')",iterative_deepening_search
+116,118,5.0,47,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",iterative_deepening_search
+4433,4374,10.0,627,"PourProblem((1, 1, 1), 13)",depth_limited_search
+4433,4374,30.0,627,"GreenPourProblem((1, 1, 1), 13)",depth_limited_search
+37149,37106,10.0,4753,"PourProblem((0, 0, 0), 21)",depth_limited_search
+37149,37106,54.0,4753,"GreenPourProblem((0, 0, 0), 21)",depth_limited_search
+452,453,inf,110,"PourProblem((0, 0), 8)",depth_limited_search
+452,453,inf,110,"GreenPourProblem((0, 0), 8)",depth_limited_search
+37149,37106,10.0,4753,"PourProblem((0, 0, 0), 21)",depth_limited_search
+37149,37106,54.0,4753,"GreenPourProblem((0, 0, 0), 21)",depth_limited_search
+0,1,0.0,0,"RouteProblem('A', 'A')",depth_limited_search
+17,8,733.0,14,"RouteProblem('A', 'B')",depth_limited_search
+40,38,910.0,26,"RouteProblem('N', 'L')",depth_limited_search
+29,23,992.0,20,"RouteProblem('E', 'T')",depth_limited_search
+35,29,895.0,22,"RouteProblem('O', 'M')",depth_limited_search
+351,349,5.0,138,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",depth_limited_search
+948,109,4.0,112,"PourProblem((1, 1, 1), 13)",greedy_bfs
+1696,190,10.0,204,"GreenPourProblem((1, 1, 1), 13)",greedy_bfs
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",greedy_bfs
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",greedy_bfs
+124,30,14.0,43,"PourProblem((0, 0), 8)",greedy_bfs
+124,30,35.0,45,"GreenPourProblem((0, 0), 8)",greedy_bfs
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",greedy_bfs
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",greedy_bfs
+0,1,0.0,0,"RouteProblem('A', 'A')",greedy_bfs
+9,4,450.0,6,"RouteProblem('A', 'B')",greedy_bfs
+29,12,910.0,20,"RouteProblem('N', 'L')",greedy_bfs
+19,8,837.0,14,"RouteProblem('E', 'T')",greedy_bfs
+14,6,572.0,10,"RouteProblem('O', 'M')",greedy_bfs
+15,6,5.0,10,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",greedy_bfs
+948,109,4.0,112,"PourProblem((1, 1, 1), 13)",weighted_astar_search
+1696,190,10.0,204,"GreenPourProblem((1, 1, 1), 13)",weighted_astar_search
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",weighted_astar_search
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",weighted_astar_search
+124,30,14.0,43,"PourProblem((0, 0), 8)",weighted_astar_search
+124,30,35.0,45,"GreenPourProblem((0, 0), 8)",weighted_astar_search
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",weighted_astar_search
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",weighted_astar_search
+0,1,0.0,0,"RouteProblem('A', 'A')",weighted_astar_search
+9,4,450.0,6,"RouteProblem('A', 'B')",weighted_astar_search
+32,14,910.0,22,"RouteProblem('N', 'L')",weighted_astar_search
+29,12,805.0,19,"RouteProblem('E', 'T')",weighted_astar_search
+18,8,445.0,12,"RouteProblem('O', 'M')",weighted_astar_search
+15,6,5.0,10,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",weighted_astar_search
+948,109,4.0,112,"PourProblem((1, 1, 1), 13)",extra_weighted_astar_search
+1696,190,10.0,204,"GreenPourProblem((1, 1, 1), 13)",extra_weighted_astar_search
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",extra_weighted_astar_search
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",extra_weighted_astar_search
+124,30,14.0,43,"PourProblem((0, 0), 8)",extra_weighted_astar_search
+124,30,35.0,45,"GreenPourProblem((0, 0), 8)",extra_weighted_astar_search
+3499,389,9.0,397,"PourProblem((0, 0, 0), 21)",extra_weighted_astar_search
+4072,454,21.0,463,"GreenPourProblem((0, 0, 0), 21)",extra_weighted_astar_search
+0,1,0.0,0,"RouteProblem('A', 'A')",extra_weighted_astar_search
+9,4,450.0,6,"RouteProblem('A', 'B')",extra_weighted_astar_search
+29,12,910.0,20,"RouteProblem('N', 'L')",extra_weighted_astar_search
+23,9,805.0,16,"RouteProblem('E', 'T')",extra_weighted_astar_search
+18,8,445.0,12,"RouteProblem('O', 'M')",extra_weighted_astar_search
+15,6,5.0,10,"EightPuzzle((1, 4, 2, 0, 7, 5, 3, 6, 8),",extra_weighted_astar_search
